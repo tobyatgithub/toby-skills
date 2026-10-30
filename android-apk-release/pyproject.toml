@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "android-apk-release-cli"
+version = "0.3.0"
+description = "Safe Android APK release workflow for five stores and self-hosted servers"
+requires-python = ">=3.10"
+dependencies = ["cryptography>=42"]
+
+[project.scripts]
+android-apk-release = "android_apk_release:main"
+
+[tool.setuptools]
+py-modules = ["android_apk_release"]
+package-dir = {"" = "scripts"}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Android APK Release"
+  short_description: "Publish one APK to five Chinese Android stores, with optional self-hosted servers"
+  default_prompt: "Use $android-apk-release to validate one APK, preview all release targets, submit the five stores, and publish the same bytes to configured self-hosted servers after confirmation."

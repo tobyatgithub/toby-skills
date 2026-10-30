@@ -40,7 +40,14 @@ def config(name: str) -> str:
     path = CONFIG_ROOT / name
     if not path.is_file():
         raise ReleaseError(f"Missing config file: {path}")
-    value = path.read_text(encoding="utf-8").strip()
+    # .env-style: blank lines and lines starting with '#' are ignored; the
+    # remaining lines are the value (multi-line values such as PEM stay intact).
+    lines = [
+        line
+        for line in path.read_text(encoding="utf-8").splitlines()
+        if line.strip() and not line.lstrip().startswith("#")
+    ]
+    value = "\n".join(lines).strip()
     if not value:
         raise ReleaseError(f"Empty config file: {path}")
     return value

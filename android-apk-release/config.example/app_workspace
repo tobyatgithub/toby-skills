@@ -1,0 +1,4 @@
+# 【可选】自托管发布的工作区目录（内含 Makefile：APK_NAME / REMOTE_HOSTS / REMOTE_PATH）
+# 只在配置了 self_hosted_apk_url 时需要
+# 详见 references/provider-api.md 的 Self-hosted 一节
+/absolute/path/to/self-hosted-workspace

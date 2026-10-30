@@ -1,0 +1,5 @@
+# 小米：与私钥配对的 X.509 证书（PEM 格式，可多行）
+# 获取：生成 API 密钥对时下载的证书文件，整个文件内容贴进来
+-----BEGIN CERTIFICATE-----
+MIIBxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-----END CERTIFICATE-----

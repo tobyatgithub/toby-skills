@@ -31,7 +31,14 @@ npx skills add tobyatgithub/skills --skill android-apk-release -g
 
 ## 配置（一次性的）
 
-一个文件一个值，放进 `ANDROID_CI_CONFIG`（默认 `~/.config/android-ci/`，可用环境变量改指向）：
+配置是一个文件一个值的目录，放进 `ANDROID_CI_CONFIG`（默认 `~/.config/android-ci/`，可用环境变量改指向）。**直接从模板开始**：
+
+```bash
+cp -r config.example ~/.config/android-ci
+# 然后逐个文件填值：以 # 开头的行是注释（会被忽略），其余行就是值
+```
+
+每个文件需要什么、去哪里拿，都写在模板文件的注释里；速查表如下：
 
 | 文件 | 用途 | 来源 |
 |---|---|---|

@@ -1,0 +1,4 @@
+# 小米：API 签名私钥字符串
+# 获取：dev.mi.com → 开放能力 / API 密钥管理（生成密钥对时保存）
+# ⚠️ 机密
+your-xiaomi-private-key-string

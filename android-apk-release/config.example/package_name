@@ -1,0 +1,4 @@
+# 应用包名
+# 来源：你的 Android 工程 applicationId
+# （Flutter 在 android/app/build.gradle 的 applicationId）
+com.example.yourapp

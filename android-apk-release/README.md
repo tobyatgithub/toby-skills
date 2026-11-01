@@ -22,7 +22,7 @@
 
 ```bash
 # 方式一：装进支持 skills 规范的 agent（claude-code / codex 等）
-npx skills add tobyatgithub/skills --skill android-apk-release -g
+npx skills add tobyatgithub/toby-skills --skill android-apk-release -g
 
 # 方式二：不装直接用——agent 读 SKILL.md 照做，CLI 用 uvx --from 指向本目录
 ```

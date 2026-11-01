@@ -27,14 +27,14 @@ Toby（[@tobyatlarge](https://x.com/tobyatlarge) / [tobyatgithub](https://github
 
 ```bash
 # 交互式选择（推荐先 --list 看一眼）
-npx skills add tobyatgithub/skills --list
-npx skills add tobyatgithub/skills
+npx skills add tobyatgithub/toby-skills --list
+npx skills add tobyatgithub/toby-skills
 
 # 只装单个 skill，全局可用
-npx skills add tobyatgithub/skills --skill android-apk-release -g
+npx skills add tobyatgithub/toby-skills --skill android-apk-release -g
 
 # 装全部
-npx skills add tobyatgithub/skills --all
+npx skills add tobyatgithub/toby-skills --all
 ```
 
 手动安装：把对应 skill 目录拷贝（或 symlink）进你的 agent skills 目录即可。

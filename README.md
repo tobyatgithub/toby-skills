@@ -1,8 +1,12 @@
 # Toby's Skills
 
+*AI agent skills by tobyatlarge — README in Chinese; the skills themselves (`SKILL.md`) are in English.*
+
 Toby（[@tobyatlarge](https://x.com/tobyatlarge) / [tobyatgithub](https://github.com/tobyatgithub)）的 AI agent skills 仓库。每个 skill 一个目录，独立安装、独立使用。
 
 这里的每一个 skill 都是三件套：**给 agent 的操作规程（SKILL.md）+ 领域参考手册（references/）+ 配套 CLI（scripts/）**，全部来自真实生产项目的踩坑沉淀，不是 demo——首弹就服役于一个 20 个月 48 个版本的真实发版流程。
+
+📝 首弹的完整背景故事（为什么写、怎么把五家商店压成四步）：[《上架国内安卓商店：难是错觉，烦才是真的》](https://x.com/TobyAtLarge/status/2116813653857186288)
 
 ## 目录
 

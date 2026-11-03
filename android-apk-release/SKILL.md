@@ -1,6 +1,8 @@
 ---
 name: android-apk-release
-description: Validate, preview, submit, publish, and monitor an existing Android APK release across Xiaomi GetApps, HONOR App Market, Tencent MyApp, OPPO App Market, vivo App Store, plus configurable self-hosted download servers when provided. Use when given an APK and release notes, when checking release status, or when completing an existing app update. This skill does not create store listings.
+display_name: 安卓五商店自动发版
+display_name_en: Android 5-Store Release Automation
+description: Validate, preview, submit, and monitor APK updates across Xiaomi GetApps, HONOR App Market, Tencent MyApp, OPPO App Market, and vivo, plus optional self-hosted servers. 把中国大陆五家安卓商店（小米/荣耀/应用宝/OPPO/vivo）的 APK 更新压成四步：status 体检 → plan 计划 → 人工确认 → 五店提交；凭证隔离、只读安全、config.example 一键起步。只更新已上架应用，不代办软著/备案/首次 listing。
 ---
 
 # Android APK Release

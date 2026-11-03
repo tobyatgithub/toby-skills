@@ -1,10 +1,10 @@
 ---
 name: android-apk-release
-display_name: 安卓五商店自动发版
-display_name_en: Android 5-Store Release Automation
+display_name: 一键部署安卓上架
+display_name_en: One-Click Android 5-Store Release
 description: Validate, preview, submit, and monitor APK updates across Xiaomi GetApps, HONOR App Market, Tencent MyApp, OPPO App Market, and vivo, plus optional self-hosted servers. 把中国大陆五家安卓商店（小米/荣耀/应用宝/OPPO/vivo）的 APK 更新压成四步：status 体检 → plan 计划 → 人工确认 → 五店提交；凭证隔离、只读安全、config.example 一键起步。只更新已上架应用，不代办软著/备案/首次 listing。
-description_zh: 把中国大陆五家安卓商店的 APK 更新压成四步：status 体检 → plan 计划 → 人工确认 → 五店提交。凭证隔离、只读安全，沉淀自 20 个月 48 版的真实发版流程。
-description_en: Compress APK updates across Xiaomi, HONOR, Tencent MyApp, OPPO, and vivo into four steps - status check, plan, human confirmation, five-store submission. Credential isolation, read-only safety, distilled from 48 releases over 20 months.
+description_zh: 一键部署国内 5 家安卓商店的 APK 上架。Agent 会为你完成一键四个步骤：status 体检 → plan 计划 → 人工确认 → 五店提交。凭证隔离、只读安全，沉淀自 20 个月 48 版的真实发版流程。
+description_en: One-click APK release to the 5 Chinese Android stores. The Agent runs four steps for you - status check, plan, human confirmation, five-store submission. Credential isolation, read-only safety, distilled from 48 releases over 20 months.
 version: 0.3.0
 author: Toby
 examples_zh:
